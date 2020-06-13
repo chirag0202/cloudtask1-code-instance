@@ -126,7 +126,7 @@ provisioner "remote-exec" {
       "sudo mkfs.ext4  /dev/sdd",
       "sudo mount  /dev/sdd  /var/www/html",
       "sudo rm -rf /var/www/html/*",
-      "sudo git clone https://github.com/chirag0202/cloudtask1.git /var/www/html/"
+      "sudo git clone https://github.com/chirag0202/cloudtask1-code-instance.git /var/www/html/"
     ]
   }
 }
